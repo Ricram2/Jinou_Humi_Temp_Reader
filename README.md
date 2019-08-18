@@ -59,7 +59,7 @@ Install pexpect to controll gatttools.
 
 * **Ricardo Antonio Rambal Fattori** - *Ricram2* - [Github](https://github.com/ricram2)
 
-* **OTHER GUY WHO DID THE MOST** TODO 
+* **TODO I BASED THIS ON A WRAPPER FOR BLUETOOTHCTL*  
 
 
 ## License
