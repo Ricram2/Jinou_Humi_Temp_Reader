@@ -1,9 +1,11 @@
 
 import sys
 import pexpect
-DEVICE = "C7:DA:EB:01:F7:38"   # address of your device
+DEVICE = "C7:DA:EB:01:F7:38"   #MAC address of your device
 if len(sys.argv) == 2:
   DEVICE = str(sys.argv[1])
+
+
 # Run gatttool interactively.
 child = pexpect.spawn("gatttool -I")
 
