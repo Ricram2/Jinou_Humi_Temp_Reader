@@ -1,7 +1,7 @@
 
 import sys
 import pexpect
-DEVICE = "C7:DA:EB:01:F7:38"   #MAC address of your device
+DEVICE = "C7:DA:EB:01:F7:38"   #REPLACE WITH YOUR MAC ID (FF:FF:FF:FF:FF:FF)
 if len(sys.argv) == 2:
   DEVICE = str(sys.argv[1])
 
